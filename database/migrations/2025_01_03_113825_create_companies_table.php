@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string("name");
             $table->string("address");
             $table->string("email")->nullable();
-            $table->string("logo");
+            $table->string("logo")->nullable();
             $table->string("pan")->nullable();
             $table->timestamps();
         });
